@@ -70,6 +70,7 @@ static int	write_tetra(char **sq_tab, t_block *t_tab, int pos, int size_array)
 		t_tab[k].x_in_sq = j;
 		k++;
 	}
+	sleep(5);
 	system("clear");
 	display_tetra(sq_tab);
 	return (1);
